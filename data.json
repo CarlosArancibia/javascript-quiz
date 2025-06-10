@@ -1,0 +1,212 @@
+[
+  {
+    "id": "d5e46d2c-6b25-4a87-91e5-bc9d63d6b3d3",
+    "question": "¿Cuál es el resultado de ejecutar el siguiente código?",
+    "code": "console.log(typeof null);",
+    "answers": ["\"null\"", "\"object\"", "\"undefined\"", "\"boolean\""],
+    "correctAnswer": 1
+  },
+  {
+    "id": "74515123-bcb3-4d7a-b4bb-314e1a706fa9",
+    "question": "¿Qué método convierte un JSON en un objeto JavaScript?",
+    "code": "const obj = ???('{\"name\": \"John\"}');",
+    "answers": ["JSON.stringify", "JSON.parse", "JSON.toObject", "JSON.decode"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "99b6fd34-65e1-44b4-8bc2-4e142441200c",
+    "question": "¿Cuál es el resultado de la siguiente expresión?",
+    "code": "'2' + 2",
+    "answers": ["4", "\"22\"", "NaN", "\"4\""],
+    "correctAnswer": 1
+  },
+  {
+    "id": "725d6510-de27-418b-9ffb-ca0ee5fc68ac",
+    "question": "¿Qué palabra clave se usa para declarar una constante?",
+    "code": "??? myVar = 10;",
+    "answers": ["var", "const", "let", "static"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "9a87e42d-e14a-4387-8313-adce2238962c",
+    "question": "¿Cuál de las siguientes opciones es falsy en JavaScript?",
+    "code": "Boolean(???) // false",
+    "answers": ["\"0\"", "[]", "0", "{}"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "dd398917-14d4-40b3-a22c-f0c9e8f6efdc",
+    "question": "¿Cuál es el valor devuelto por una función sin return?",
+    "code": "function test() {}\nconsole.log(test());",
+    "answers": ["null", "false", "0", "undefined"],
+    "correctAnswer": 3
+  },
+  {
+    "id": "265ce4fa-7a8e-45b4-a849-c0f4f8124b75",
+    "question": "¿Qué operador compara valores y tipos?",
+    "code": "5 ??? '5'",
+    "answers": ["==", "===", "!=", "="],
+    "correctAnswer": 1
+  },
+  {
+    "id": "179f20a1-5b50-4631-be0c-4461a89e6820",
+    "question": "¿Qué tipo de lenguaje es JavaScript?",
+    "code": "// Sobre cómo se ejecuta",
+    "answers": ["Compilado", "Interpretado", "Ambos", "Ninguno"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "6ff0571c-da61-4c22-a279-c1204bd6411c",
+    "question": "¿Qué estructura de datos permite almacenar pares clave-valor?",
+    "code": "const datos = ???",
+    "answers": ["[]", "{}", "new Set()", "\"map\""],
+    "correctAnswer": 1
+  },
+  {
+    "id": "c0f13872-407e-4215-8b88-41c3e948153e",
+    "question": "¿Qué método NO modifica el array original?",
+    "code": "[1, 2, 3].???(x => x * 2);",
+    "answers": ["push", "pop", "map", "splice"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "36268be0-db35-4c71-9203-a0ea4dbc3879",
+    "question": "¿Cuál es el resultado de ejecutar el siguiente código?",
+    "code": "console.log(typeof null);",
+    "answers": ["\"null\"", "\"object\"", "\"undefined\"", "\"boolean\""],
+    "correctAnswer": 1
+  },
+  {
+    "id": "a2c5277a-8cda-49e7-9635-7b867f2e5dcb",
+    "question": "¿Qué método convierte un JSON en un objeto JavaScript?",
+    "code": "const obj = ???('{\"name\": \"John\"}');",
+    "answers": ["JSON.stringify", "JSON.parse", "JSON.toObject", "JSON.decode"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "8a114232-657d-4a99-a914-e76de63b833f",
+    "question": "¿Cuál es el resultado de la siguiente expresión?",
+    "code": "'2' + 2",
+    "answers": ["4", "\"22\"", "NaN", "\"4\""],
+    "correctAnswer": 1
+  },
+  {
+    "id": "148841c6-625d-4a7f-847c-36683968d9b4",
+    "question": "¿Qué palabra clave se usa para declarar una constante?",
+    "code": "??? myVar = 10;",
+    "answers": ["var", "const", "let", "static"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "376f415a-ed45-4fbc-801d-ce4bd5939179",
+    "question": "¿Cuál de las siguientes opciones es falsy en JavaScript?",
+    "code": "Boolean(???) // false",
+    "answers": ["\"0\"", "[]", "0", "{}"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ce422ed7-5a16-4377-9f38-b9556ea9a922",
+    "question": "¿Cuál es el valor devuelto por una función sin return?",
+    "code": "function test() {}\nconsole.log(test());",
+    "answers": ["null", "false", "0", "undefined"],
+    "correctAnswer": 3
+  },
+  {
+    "id": "acb5fe1e-eab7-4d85-9b11-809957324829",
+    "question": "¿Qué operador compara valores y tipos?",
+    "code": "5 ??? '5'",
+    "answers": ["==", "===", "!=", "="],
+    "correctAnswer": 1
+  },
+  {
+    "id": "a1dea733-4bcd-4c62-b80e-0415533858a4",
+    "question": "¿Qué tipo de lenguaje es JavaScript?",
+    "code": "// Sobre cómo se ejecuta",
+    "answers": ["Compilado", "Interpretado", "Ambos", "Ninguno"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "a14dc78a-cdc0-407f-a7e1-7fae47ae9af9",
+    "question": "¿Qué estructura de datos permite almacenar pares clave-valor?",
+    "code": "const datos = ???",
+    "answers": ["[]", "{}", "new Set()", "\"map\""],
+    "correctAnswer": 1
+  },
+  {
+    "id": "70de03b2-269a-4e22-b449-93d0fabf1474",
+    "question": "¿Qué método NO modifica el array original?",
+    "code": "[1, 2, 3].???(x => x * 2);",
+    "answers": ["push", "pop", "map", "splice"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "911f1ffc-270d-4037-ada1-4946937b1716",
+    "question": "¿Cuál es el resultado de ejecutar el siguiente código?",
+    "code": "console.log(typeof null);",
+    "answers": ["\"null\"", "\"object\"", "\"undefined\"", "\"boolean\""],
+    "correctAnswer": 1
+  },
+  {
+    "id": "e4f503e4-1c6a-4aaf-aade-55821cb53399",
+    "question": "¿Qué método convierte un JSON en un objeto JavaScript?",
+    "code": "const obj = ???('{\"name\": \"John\"}');",
+    "answers": ["JSON.stringify", "JSON.parse", "JSON.toObject", "JSON.decode"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "121ee133-05db-4a37-a339-60b8e9b7106a",
+    "question": "¿Cuál es el resultado de la siguiente expresión?",
+    "code": "'2' + 2",
+    "answers": ["4", "\"22\"", "NaN", "\"4\""],
+    "correctAnswer": 1
+  },
+  {
+    "id": "a5c7a4f2-a553-40a4-b143-15c77ad89c95",
+    "question": "¿Qué palabra clave se usa para declarar una constante?",
+    "code": "??? myVar = 10;",
+    "answers": ["var", "const", "let", "static"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "bb245c58-e0f1-4a92-b9aa-c4773f65b445",
+    "question": "¿Cuál de las siguientes opciones es falsy en JavaScript?",
+    "code": "Boolean(???) // false",
+    "answers": ["\"0\"", "[]", "0", "{}"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "0149fcdb-3088-4e33-ab29-87a5d286a377",
+    "question": "¿Cuál es el valor devuelto por una función sin return?",
+    "code": "function test() {}\nconsole.log(test());",
+    "answers": ["null", "false", "0", "undefined"],
+    "correctAnswer": 3
+  },
+  {
+    "id": "12fcd71d-935e-4e1b-b7de-6a1f117f188c",
+    "question": "¿Qué operador compara valores y tipos?",
+    "code": "5 ??? '5'",
+    "answers": ["==", "===", "!=", "="],
+    "correctAnswer": 1
+  },
+  {
+    "id": "b72f540a-f643-42d9-838e-f792aeff6b64",
+    "question": "¿Qué tipo de lenguaje es JavaScript?",
+    "code": "// Sobre cómo se ejecuta",
+    "answers": ["Compilado", "Interpretado", "Ambos", "Ninguno"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "83d2de5f-1315-404b-89e0-8586eb9ed0ce",
+    "question": "¿Qué estructura de datos permite almacenar pares clave-valor?",
+    "code": "const datos = ???",
+    "answers": ["[]", "{}", "new Set()", "\"map\""],
+    "correctAnswer": 1
+  },
+  {
+    "id": "a9708f2e-79a8-423a-afe7-b0a6c36aa228",
+    "question": "¿Qué método NO modifica el array original?",
+    "code": "[1, 2, 3].???(x => x * 2);",
+    "answers": ["push", "pop", "map", "splice"],
+    "correctAnswer": 2
+  }
+]
