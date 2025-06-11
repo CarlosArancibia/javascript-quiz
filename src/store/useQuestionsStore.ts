@@ -5,18 +5,32 @@ interface State {
   questions: Question[]
   currentQuestion: number
   getQuestions: (limit: number) => Promise<void>
+  selectAnswer: (questionId: string, answerIndex: number) => void
 }
 
-export const useQuestionStore = create<State>((set) => ({
+export const useQuestionStore = create<State>((set, get) => ({
   questions: [],
   currentQuestion: 0,
   getQuestions: async (limit: number) => {
     const data = await fetch('http://localhost:5173/data.json')
     const json = await data.json()
     const questions = json.sort(() => Math.random() - 0.5).slice(0, limit)
-
-    console.log(questions)
-
     set({ questions })
+  },
+  selectAnswer: (questionId: string, answerIndex: number) => {
+    const { questions } = get()
+    const newQuestions = structuredClone(questions)
+    const questionIndex = newQuestions.findIndex((q) => q.id === questionId)
+    const questionInfo = newQuestions[questionIndex]
+
+    const isCorrectUserAnswer = questionInfo.correctAnswer === answerIndex
+
+    newQuestions[questionIndex] = {
+      ...questionInfo,
+      userSelectedAnswer: answerIndex,
+      isCorrectUserAnswer,
+    }
+
+    set({ questions: newQuestions })
   },
 }))
