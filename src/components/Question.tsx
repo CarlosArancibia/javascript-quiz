@@ -13,8 +13,8 @@ const getBackgroundColor = (info: QuestionType, answerIndex: number) => {
   const { userSelectedAnswer, correctAnswer } = info
 
   if (userSelectedAnswer == null) return 'bg-transparent'
-  if (answerIndex === correctAnswer) return 'bg-green-200'
-  if (answerIndex === userSelectedAnswer) return 'bg-red-200'
+  if (answerIndex === correctAnswer) return 'bg-[#17B990] border-green-700 text-white'
+  if (answerIndex === userSelectedAnswer) return 'bg-red-400 border-red-500 text-white'
 
   return 'bg-transparent'
 }
@@ -34,23 +34,22 @@ export const Question = ({ info }: Props) => {
       <SyntaxHighlighter language='javascript' style={gruvboxDark} wrapLines className='rounded-lg'>
         {info.code}
       </SyntaxHighlighter>
-      <div>
-        <ul className='flex flex-col gap-2'>
-          {info.answers.map((answer, i) => (
-            <li
-              key={i}
-              className={`${getBackgroundColor(
-                info,
-                i
-              )} border border-gray-400 rounded-md p-2 font-semibold cursor-pointer px-3 ${
-                info.userSelectedAnswer ? '' : 'hover:bg-gray-200'
-              }`}
-              onClick={() => onSelectAnswer(i)}
-            >
-              {answer}
-            </li>
-          ))}
-        </ul>
+      <div className='flex flex-col gap-2'>
+        {info.answers.map((answer, i) => (
+          <button
+            key={i}
+            className={`${getBackgroundColor(
+              info,
+              i
+            )} border border-gray-400 rounded-md p-2 font-semibold px-3 ${
+              info.userSelectedAnswer !== undefined ? '' : 'hover:bg-gray-200 cursor-pointer'
+            }`}
+            onClick={() => onSelectAnswer(i)}
+            disabled={info.userSelectedAnswer !== undefined}
+          >
+            {answer}
+          </button>
+        ))}
       </div>
     </article>
   )
