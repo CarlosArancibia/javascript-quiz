@@ -1,38 +1,10 @@
 [
   {
-    "id": "d5e46d2c-6b25-4a87-91e5-bc9d63d6b3d3",
-    "question": "¿Cuál es el resultado de ejecutar el siguiente código?",
-    "code": "console.log(typeof null);",
-    "answers": ["\"null\"", "\"object\"", "\"undefined\"", "\"boolean\""],
-    "correctAnswer": 1
-  },
-  {
-    "id": "74515123-bcb3-4d7a-b4bb-314e1a706fa9",
-    "question": "¿Qué método convierte un JSON en un objeto JavaScript?",
-    "code": "const obj = ???('{\"name\": \"John\"}');",
-    "answers": ["JSON.stringify", "JSON.parse", "JSON.toObject", "JSON.decode"],
-    "correctAnswer": 1
-  },
-  {
     "id": "99b6fd34-65e1-44b4-8bc2-4e142441200c",
     "question": "¿Cuál es el resultado de la siguiente expresión?",
     "code": "'2' + 2",
     "answers": ["4", "\"22\"", "NaN", "\"4\""],
     "correctAnswer": 1
-  },
-  {
-    "id": "725d6510-de27-418b-9ffb-ca0ee5fc68ac",
-    "question": "¿Qué palabra clave se usa para declarar una constante?",
-    "code": "??? myVar = 10;",
-    "answers": ["var", "const", "let", "static"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "9a87e42d-e14a-4387-8313-adce2238962c",
-    "question": "¿Cuál de las siguientes opciones es falsy en JavaScript?",
-    "code": "Boolean(???) // false",
-    "answers": ["\"0\"", "[]", "0", "{}"],
-    "correctAnswer": 2
   },
   {
     "id": "dd398917-14d4-40b3-a22c-f0c9e8f6efdc",
@@ -42,13 +14,6 @@
     "correctAnswer": 3
   },
   {
-    "id": "265ce4fa-7a8e-45b4-a849-c0f4f8124b75",
-    "question": "¿Qué operador compara valores y tipos?",
-    "code": "5 ??? '5'",
-    "answers": ["==", "===", "!=", "="],
-    "correctAnswer": 1
-  },
-  {
     "id": "179f20a1-5b50-4631-be0c-4461a89e6820",
     "question": "¿Qué tipo de lenguaje es JavaScript?",
     "code": "// Sobre cómo se ejecuta",
@@ -56,38 +21,10 @@
     "correctAnswer": 1
   },
   {
-    "id": "6ff0571c-da61-4c22-a279-c1204bd6411c",
-    "question": "¿Qué estructura de datos permite almacenar pares clave-valor?",
-    "code": "const datos = ???",
-    "answers": ["[]", "{}", "new Set()", "\"map\""],
-    "correctAnswer": 1
-  },
-  {
-    "id": "c0f13872-407e-4215-8b88-41c3e948153e",
-    "question": "¿Qué método NO modifica el array original?",
-    "code": "[1, 2, 3].???(x => x * 2);",
-    "answers": ["push", "pop", "map", "splice"],
-    "correctAnswer": 2
-  },
-  {
     "id": "36268be0-db35-4c71-9203-a0ea4dbc3879",
     "question": "¿Cuál es el resultado de ejecutar el siguiente código?",
     "code": "console.log(typeof null);",
     "answers": ["\"null\"", "\"object\"", "\"undefined\"", "\"boolean\""],
-    "correctAnswer": 1
-  },
-  {
-    "id": "a2c5277a-8cda-49e7-9635-7b867f2e5dcb",
-    "question": "¿Qué método convierte un JSON en un objeto JavaScript?",
-    "code": "const obj = ???('{\"name\": \"John\"}');",
-    "answers": ["JSON.stringify", "JSON.parse", "JSON.toObject", "JSON.decode"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "8a114232-657d-4a99-a914-e76de63b833f",
-    "question": "¿Cuál es el resultado de la siguiente expresión?",
-    "code": "'2' + 2",
-    "answers": ["4", "\"22\"", "NaN", "\"4\""],
     "correctAnswer": 1
   },
   {
@@ -105,24 +42,10 @@
     "correctAnswer": 2
   },
   {
-    "id": "ce422ed7-5a16-4377-9f38-b9556ea9a922",
-    "question": "¿Cuál es el valor devuelto por una función sin return?",
-    "code": "function test() {}\nconsole.log(test());",
-    "answers": ["null", "false", "0", "undefined"],
-    "correctAnswer": 3
-  },
-  {
     "id": "acb5fe1e-eab7-4d85-9b11-809957324829",
     "question": "¿Qué operador compara valores y tipos?",
     "code": "5 ??? '5'",
     "answers": ["==", "===", "!=", "="],
-    "correctAnswer": 1
-  },
-  {
-    "id": "a1dea733-4bcd-4c62-b80e-0415533858a4",
-    "question": "¿Qué tipo de lenguaje es JavaScript?",
-    "code": "// Sobre cómo se ejecuta",
-    "answers": ["Compilado", "Interpretado", "Ambos", "Ninguno"],
     "correctAnswer": 1
   },
   {
@@ -133,73 +56,10 @@
     "correctAnswer": 1
   },
   {
-    "id": "70de03b2-269a-4e22-b449-93d0fabf1474",
-    "question": "¿Qué método NO modifica el array original?",
-    "code": "[1, 2, 3].???(x => x * 2);",
-    "answers": ["push", "pop", "map", "splice"],
-    "correctAnswer": 2
-  },
-  {
-    "id": "911f1ffc-270d-4037-ada1-4946937b1716",
-    "question": "¿Cuál es el resultado de ejecutar el siguiente código?",
-    "code": "console.log(typeof null);",
-    "answers": ["\"null\"", "\"object\"", "\"undefined\"", "\"boolean\""],
-    "correctAnswer": 1
-  },
-  {
     "id": "e4f503e4-1c6a-4aaf-aade-55821cb53399",
     "question": "¿Qué método convierte un JSON en un objeto JavaScript?",
     "code": "const obj = ???('{\"name\": \"John\"}');",
     "answers": ["JSON.stringify", "JSON.parse", "JSON.toObject", "JSON.decode"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "121ee133-05db-4a37-a339-60b8e9b7106a",
-    "question": "¿Cuál es el resultado de la siguiente expresión?",
-    "code": "'2' + 2",
-    "answers": ["4", "\"22\"", "NaN", "\"4\""],
-    "correctAnswer": 1
-  },
-  {
-    "id": "a5c7a4f2-a553-40a4-b143-15c77ad89c95",
-    "question": "¿Qué palabra clave se usa para declarar una constante?",
-    "code": "??? myVar = 10;",
-    "answers": ["var", "const", "let", "static"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "bb245c58-e0f1-4a92-b9aa-c4773f65b445",
-    "question": "¿Cuál de las siguientes opciones es falsy en JavaScript?",
-    "code": "Boolean(???) // false",
-    "answers": ["\"0\"", "[]", "0", "{}"],
-    "correctAnswer": 2
-  },
-  {
-    "id": "0149fcdb-3088-4e33-ab29-87a5d286a377",
-    "question": "¿Cuál es el valor devuelto por una función sin return?",
-    "code": "function test() {}\nconsole.log(test());",
-    "answers": ["null", "false", "0", "undefined"],
-    "correctAnswer": 3
-  },
-  {
-    "id": "12fcd71d-935e-4e1b-b7de-6a1f117f188c",
-    "question": "¿Qué operador compara valores y tipos?",
-    "code": "5 ??? '5'",
-    "answers": ["==", "===", "!=", "="],
-    "correctAnswer": 1
-  },
-  {
-    "id": "b72f540a-f643-42d9-838e-f792aeff6b64",
-    "question": "¿Qué tipo de lenguaje es JavaScript?",
-    "code": "// Sobre cómo se ejecuta",
-    "answers": ["Compilado", "Interpretado", "Ambos", "Ninguno"],
-    "correctAnswer": 1
-  },
-  {
-    "id": "83d2de5f-1315-404b-89e0-8586eb9ed0ce",
-    "question": "¿Qué estructura de datos permite almacenar pares clave-valor?",
-    "code": "const datos = ???",
-    "answers": ["[]", "{}", "new Set()", "\"map\""],
     "correctAnswer": 1
   },
   {
@@ -208,5 +68,40 @@
     "code": "[1, 2, 3].???(x => x * 2);",
     "answers": ["push", "pop", "map", "splice"],
     "correctAnswer": 2
+  },
+  {
+    "id": "105f54de-b56a-4d8d-8753-5c7857034279",
+    "question": "¿Cuál de estas sentencias define una función de flecha?",
+    "code": "const saludar = ???",
+    "answers": ["function() {}", "() => {}", "=> function", "() -> {}"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "dd6384ea-dc41-4129-98ac-d0c763a51996",
+    "question": "¿Qué estructura permite manejar errores en JavaScript?",
+    "code": "try { ... } ??? (e) { ... }",
+    "answers": ["except", "catch", "error", "handle"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "fca74f30-4099-4f2e-a93d-f3a69b922d31",
+    "question": "¿Cuál de estos NO es un tipo de dato primitivo?",
+    "code": "typeof ???;",
+    "answers": ["number", "boolean", "object", "undefined"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "65659083-9c86-43af-9cf5-fc3dbedb4bb2",
+    "question": "¿Qué valor devuelve una función que no tiene una sentencia return?",
+    "code": "function test() {}",
+    "answers": ["undefined", "null", "0", "false"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "c2ef1d84-90dc-4e3e-b6e6-61e4ec42de36",
+    "question": "¿Qué valor tendrá resultado después de ejecutar este código?",
+    "code": "const usuario = {\n  nombre: 'Ana',\n  edad: 28\n};\n\nconst resultado = usuario?.direccion?.ciudad;",
+    "answers": ["'ciudad'", "undefined", "null", "Error en tiempo de ejecución"],
+    "correctAnswer": 1
   }
 ]
