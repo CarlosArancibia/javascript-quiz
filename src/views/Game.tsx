@@ -10,7 +10,7 @@ export const Game = () => {
   const questionInfo = questions[currentQuestion]
 
   return (
-    <div className=' min-h-full bg-gradient-to-t from-[#FFBF21] to-[#F7DF1E]/10'>
+    <div className=' min-h-full bg-gradient-to-t from-[#FFBF21] to-[#F7DF1E]/10 '>
       <div className='max-w-[700px] m-auto'>
         <main className='mx-5 py-10'>
           <section>
