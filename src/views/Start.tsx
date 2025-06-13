@@ -10,7 +10,7 @@ export const Start = () => {
   }
 
   return (
-    <div className='bg-[#FFBF21] flex flex-col justify-center items-center h-full gap-10 text-[#0A0A0A] text-center'>
+    <div className='bg-[#FFBF21] flex flex-col justify-center items-center h-full gap-10 text-[#0A0A0A] text-center px-3'>
       <header>
         <h1 className='font-bold text-5xl'>JavaScript Quiz</h1>
       </header>
