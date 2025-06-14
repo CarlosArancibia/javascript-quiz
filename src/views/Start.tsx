@@ -16,10 +16,20 @@ export const Start = () => {
       </header>
       <main>
         <button
-          className='bg-[#0A0A0A] rounded-md py-2 px-3 font-semibold text-[#FFBF21] cursor-pointer'
+          className='group bg-[#0A0A0A] rounded-md py-3 px-4 font-semibold text-[#FFBF21] flex items-center cursor-pointer'
           onClick={onClickStart}
         >
           Comenzar ahora
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            fill='none'
+            viewBox='0 0 24 24'
+            strokeWidth={1.5}
+            stroke='currentColor'
+            className='size-0 group-hover:size-6 opacity-0 group-hover:translate-x-1 group-hover:opacity-100 transition-all duration-300'
+          >
+            <path strokeLinecap='round' strokeLinejoin='round' d='m8.25 4.5 7.5 7.5-7.5 7.5' />
+          </svg>
         </button>
       </main>
     </div>
