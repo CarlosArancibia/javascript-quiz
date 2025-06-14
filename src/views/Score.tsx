@@ -11,20 +11,20 @@ const getResultData = (score: number) => {
     return {
       trophy: TrophyGold,
       title: '¡Increíble!',
-      color: '#FFBF21',
+      bgClass: 'from-[#FFBF21] to-[#FFBF21]/10',
     }
   } else if (score >= 50) {
     confetti()
     return {
       trophy: TrophySilver,
       title: '¡Buen trabajo!',
-      color: '#A9A9A9',
+      bgClass: 'from-[#A9A9A9] to-[#A9A9A9]/10',
     }
   } else {
     return {
       trophy: TrophyBronze,
       title: 'Sigue practicando',
-      color: '#DC962C',
+      bgClass: 'from-[#DC962C] to-[#DC962C]/10',
     }
   }
 }
@@ -34,7 +34,7 @@ export const Score = () => {
   const resetGame = useQuestionStore((state) => state.resetGame)
 
   const score = (correct * 100) / totalQuestions
-  const { trophy, title, color } = getResultData(score)
+  const { trophy, title, bgClass } = getResultData(score)
 
   const onPlayAgain = () => {
     resetGame()
@@ -42,7 +42,7 @@ export const Score = () => {
 
   return (
     <div
-      className={`bg-gradient-to-t from-[${color}] to-[${color}]/10 flex flex-col justify-center items-center h-full gap-15 text-[#0A0A0A] text-center px-3`}
+      className={`bg-gradient-to-t ${bgClass} flex flex-col justify-center items-center h-full gap-15 text-[#0A0A0A] text-center px-3`}
     >
       <main className='flex flex-col gap-8 justify-center items-center'>
         <img src={trophy} alt='Trofeo' className='w-50 -z-10 m-auto inset-0' />
